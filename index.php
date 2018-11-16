@@ -18,7 +18,7 @@ class CustomTaxonomy {
 	function create_taxonomy() {
 
 		register_taxonomy('volumes',array('post'), array(
-			'hierarchical' => true,
+			'hierarchical' => false,
 			'labels' => $this->labels,
 			'show_ui' => true,
 			'show_admin_column' => true,
