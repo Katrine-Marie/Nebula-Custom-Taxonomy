@@ -1,11 +1,16 @@
 <?php
-/*
-Plugin Name: Nebula Custom Taxonomy
-Description: Plugin for creating a custom taxonomy (Volume)
-Version: 0.3.0
-Author: Katrine-Marie Burmeister
-Author URI: https://jordstudio.dk
-*/
+/* **
+* Plugin Name: Nebula Custom Taxonomy
+* Description: Plugin for creating a custom taxonomy (Volume)
+* Version: 1.0.0
+* Author: Katrine-Marie Burmeister
+* Author URI: https://jordstudio.dk
+* Text Domain: nebula-pt
+* License:     GPL-2.0+
+* License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+* **/
+
+namespace nebula\ct;
 
 if(!defined('ABSPATH')){
 	exit('Go away!');
