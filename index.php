@@ -2,10 +2,14 @@
 /*
 Plugin Name: Nebula Custom Taxonomy
 Description: Plugin for creating a custom taxonomy (Volume)
-Version: 0.2.0
+Version: 0.3.0
 Author: Katrine-Marie Burmeister
 Author URI: https://jordstudio.dk
 */
+
+if(!defined('ABSPATH')){
+	exit('Go away!');
+}
 
 class CustomTaxonomy {
 	private $labels;
