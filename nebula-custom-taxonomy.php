@@ -7,6 +7,10 @@ Author: Katrine-Marie Burmeister
 Author URI: https://jordstudio.dk
 */
 
+if(!defined('ABSPATH')){
+	exit('Go away!');
+}
+
 class CustomTaxonomy {
 	private $labels;
 	
