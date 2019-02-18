@@ -7,6 +7,8 @@ Author: Katrine-Marie Burmeister
 Author URI: https://jordstudio.dk
 */
 
+namespace nebula\volumes;
+
 if(!defined('ABSPATH')){
 	exit('Go away!');
 }
